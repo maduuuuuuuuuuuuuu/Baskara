@@ -23,7 +23,7 @@ else {
     Console.WriteLine($"como delta = {delta} a equação não possui raízes reais!");
 }
     else{
-    x1 = (-b - Math.Sqrt(delta)) / (2 * a);
+    x1 = (-b + Math.Sqrt(delta)) / (2 * a);
     x2 = (-b - Math.Sqrt(delta)) / (2 * a);
 
 Console.WriteLine("");
